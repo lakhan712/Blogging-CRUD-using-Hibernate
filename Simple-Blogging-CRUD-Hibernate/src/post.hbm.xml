@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "hbmodel.Post" table = "HB_POST">
+      
+      <meta attribute = "class-description">
+         This class contains the simple CRUD operation
+      </meta>
+      
+      <id name = "id" type = "int" column = "id">
+         <generator class="increment"/>
+      </id>
+      
+      <property name = "post" column = "post" type = "string"/>
+      <property name = "likeCount" column = "likeCount" type = "int"/>
+      <property name = "dislikeCount" column = "dislikeCount" type = "int"/>
+    <property name = "userId" column = "userId" type = "int"/> 
+  
+      
+   </class>
+</hibernate-mapping>

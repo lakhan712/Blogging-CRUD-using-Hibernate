@@ -1,0 +1,5 @@
+/hbController/
+/hbmodel/
+/hibernate.cfg.xml
+/post.hbm.xml
+/user.hbm.xml

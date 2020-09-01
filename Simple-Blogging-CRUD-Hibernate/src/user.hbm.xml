@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "hbmodel.User" table = "HB_REGISTER">
+      
+      <meta attribute = "class-description">
+         This class contains the simple CRUD operation
+      </meta>
+      
+      <id name = "id" type = "int" column = "id">
+         <generator class="increment"/>
+      </id>
+      
+      <property name = "username" column = "username" type = "string"/>
+      <property name = "password" column = "password" type = "string"/>
+      <property name = "email" column = "email" type = "string"/>
+      <property name = "mobile" column = "mobile" type = "string"/>
+      
+   </class>
+</hibernate-mapping>
