@@ -18,6 +18,7 @@ All users data (credentials) they can see here.<hr>
 
 <b>4. Home Page:</b><br>
 Where people can see their posts also they can share their posts here.<hr>
+<img src="SnapShots//homepage.JPG">
 <img src="SnapShots//post1.JPG">
 <hr>
 <img src="SnapShots//post2.JPG">
